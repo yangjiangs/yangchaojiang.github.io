@@ -8,13 +8,14 @@
     <script src="server/index/css/ie/html5shiv.js"></script><![endif]-->
     <script src="server/index/js/skel.min.js"></script>
     <script src="server/index/js/init.js"></script>
-    <noscript>
-        <link rel="stylesheet" href="server/index/css/skel.css">
-        <link rel="stylesheet" href="server/index/css/style.css">
-        <link rel="stylesheet" href="server/index/css/style-wide.css">
-        <link rel="stylesheet" href="server/index/css/style-noscript.css">
-    </noscript>
-
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="index/css/ie/v9.css"/><![endif]--><!--[if lte IE 8]>
+    <link rel="stylesheet" href="index/css/ie/v8.css"/><![endif]-->
+    <link rel="stylesheet" href="server/index/css/skel.css">
+    <link rel="stylesheet" href="server/index/css/style.css">
+    <link rel="stylesheet" href="server/index/css/style-wide.css">
+    <link rel="stylesheet" href="server/index/css/style-noscript.css">
+</head>
 <body class="loading">
 <div id="wrapper">
     <div id="bg"></div>
@@ -38,8 +39,6 @@
                 href="http://www.yanganan.cn">yangchaojiang</a>.</span></footer>
     </div>
 </div>
-<!--[if lte IE 9]>
-<link rel="stylesheet" href="index/css/ie/v9.css"/><![endif]--><!--[if lte IE 8]>
-<link rel="stylesheet" href="index/css/ie/v8.css"/><![endif]--></head>
+
 </body>
 </html>
